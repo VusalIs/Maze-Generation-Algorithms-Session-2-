@@ -12,7 +12,7 @@ This repository is the second [session of Maze Generation Algorithms](https://gi
 
 # Demo
 
-This repository has all codes which I have used in the demo. You are Welcome to pull this repository and explore or edit it. Additionally, If you want to see live demo you can use following link:
+This repository has all codes which I have used in the demo. You are Welcome to pull this repository and explore or edit it. Additionally, If you want to see live demo you can use following link: https://vusalis.github.io/Maze-Generation-Algorithms-Session-2-/
 
 ![Demo](demos/demo.gif)
 
