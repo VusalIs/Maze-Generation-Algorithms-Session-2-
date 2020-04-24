@@ -27,8 +27,8 @@ function setup() {
 
     for (var i = 0; i < cellCountColumn; i++) {
         for (var j = 0; j < cellCountRow; j++) {
-            walls.push(new Wall(new Point(j * cellSize, i * cellSize), new Point(j * cellSize + cellSize, i * cellSize)));
-            walls.push(new Wall(new Point(j * cellSize, i * cellSize), new Point(j * cellSize, i * cellSize + cellSize)));
+            if (i != 0) walls.push(new Wall(new Point(j * cellSize, i * cellSize), new Point(j * cellSize + cellSize, i * cellSize)));
+            if (j != 0) walls.push(new Wall(new Point(j * cellSize, i * cellSize), new Point(j * cellSize, i * cellSize + cellSize)));
             cells.push(new Cell(new Point(j * cellSize, i * cellSize)));
         }
     }

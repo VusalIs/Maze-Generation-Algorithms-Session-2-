@@ -1,10 +1,13 @@
 function algo() {
-    if ((currentWall.initPoint.x == 0 && currentWall.desPoint.x == 0) || (currentWall.initPoint.y == 0 && currentWall.desPoint.y == 0))
+    if ((currentWall.initPoint.x == 0 && currentWall.desPoint.x == 0) || (currentWall.initPoint.y == 0 && currentWall.desPoint.y == 0)) {
+        currentWall.status = 'CLEAR';
         return;
+    }
 
     currentWall.status = 'CHECKING';
     currentX = currentWall.initPoint.x / cellSize;
     currentY = currentWall.initPoint.y / cellSize;
+
     var neighbor1;
     var neighbor2;
     if (currentWall.initPoint.x == currentWall.desPoint.x) {
