@@ -5,8 +5,8 @@
 This repository is the second [session of Maze Generation Algorithms](https://github.com/VusalIs/Maze-Generation-Algorithms-Session-0-) and will explain how you can implement Randomized Kruskal's Algorithm to generate random maze. Let's get started:
 
 -   [Demo](#demo)
--   [What is Kruskal's Algorithm?](#What-is-Kruskal's-Algorithm)
--   [How you can implement Randomized Kruskal's Algorithm for maze generation?](#How-you-can-implement-Randomized-Kruskal's-Algorithm-for-maze-generation)
+-   [What is Kruskal's Algorithm?](#What-is-Kruskal\'s-Algorithm)
+-   [How you can implement Randomized Kruskal's Algorithm for maze generation?](#How-you-can-implement-Randomized-Kruskal\'s-Algorithm-for-maze-generation)
 -   [What is the code implementation?](#What-is-the-code-implementation)
 -   [Thanks for your attention](#Thanks-for-your-attention)
 
